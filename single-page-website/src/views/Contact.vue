@@ -25,11 +25,11 @@ export default {
 
 <style lang="css" scoped>
   h1 {
+    text-align: center;
     margin-bottom: 5%;
   }
 
   .margin {
     margin-bottom: 10%;
   }
-
 </style>

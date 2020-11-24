@@ -29,16 +29,16 @@
   padding: 0;
   box-sizing: border-box;
 }
-  .text {
-    margin-top: 45%;
-  }
-  img {
-    margin-left: 20%;
-  }
-  p {
-    margin-bottom: 25px;
-  }
-  a {
-    color: black;
-  }
+.text {
+  margin-top: 45%;
+}
+img {
+  margin-left: 20%;
+}
+p {
+  margin-bottom: 25px;
+}
+a {
+  color: black;
+}
 </style>

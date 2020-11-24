@@ -9,7 +9,7 @@
     </div>
     <div class="column">
       <div class="container">
-        <img src="@/assets/logo.png" alt="image2">
+        <img src="@/assets/music3.png" alt="image2">
       </div>  
     </div>
     </div>
