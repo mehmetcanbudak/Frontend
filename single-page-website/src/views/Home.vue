@@ -6,13 +6,13 @@
           <div class="text">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore ad, impedit et minima numquam dolorem obcaecati, deleniti nulla fuga ullam aperiam ea nam, sunt officia. Perspiciatis velit repudiandae ut, labore delectus reprehenderit accusantium, placeat, unde eaque ullam esse odio corrupti. Repudiandae veniam in dolor maxime rem optio repellendus maiores sint, quas quis ducimus architecto saepe reiciendis, doloremque sit vitae dolorem nemo dolore autem animi a cum perferendis ullam! Magni molestias earum minima! Molestiae quasi atque magni deleniti deserunt, cupiditate accusamus numquam quibusdam veritatis exercitationem sit fuga itaque nostrum cum voluptatem explicabo corporis, repellat cumque. Recusandae architecto quasi sequi fuga molestiae!</p>
           </div>  
-          <div class="margin">
-            <button type="button" class="button is-primary" name="button"><router-link to="/"></router-link>Learn More</button>
+          <div class="">
+            <button type="button" class="button is-primary" name="button"><router-link :to="{ name:'About'}">Learn more</router-link></button>
           </div>
         </div>
         <div class="column is-three-fifths">
           <div class="">
-            <img src="../assets/music4.png" alt="image1">
+            <img src="@/assets/music4.png" alt="image1">
           </div>  
         </div>  
         </div>
@@ -24,10 +24,21 @@
 </script>
 
 <style scoped>
+*  {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
   .text {
-    margin-top: 50%;
+    margin-top: 45%;
   }
-  button {
-    margin-top: 10%;
+  img {
+    margin-left: 20%;
+  }
+  p {
+    margin-bottom: 25px;
+  }
+  a {
+    color: black;
   }
 </style>
